@@ -2,7 +2,7 @@ var image = document.getElementById("slideShowImage");
 var imageArray =  [];
 var index = 0;
 function slideShow(){
-
+    
     image.setAttribute("src",imageArray[index]);
     index++;
     if(index > imageArray.length){
