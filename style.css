@@ -7,3 +7,24 @@
     display:block;
     z-index:999;
 }
+
+body {
+    background-color: #203AB0;
+    color: #FFF;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', 'helvetica';
+    font-size: 2 em;
+    font-style: bold;
+}
+.review {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid #000;
+    margin: 2px;
+}
+.review p {
+    font-style: italic;
+}
