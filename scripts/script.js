@@ -5,17 +5,14 @@ function slideShow(){
     
     image.setAttribute("src",imageArray[index]);
     index++;
-    if(index > imageArray.length){
+    if(index >= imageArray.length){
         index = 0;
     }
 }
 
 window.onload = function(){
-    // $Image("#slideShow").fadeOut();
     setInterval(slideShow, 2500);
-    // $Image("#slideShow").fadeIn();
 }
-
 
 $(document).ready(function(){
     $("p").click(function(){
