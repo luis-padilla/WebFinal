@@ -9,9 +9,36 @@
 }
 
 nav{
+    background-color: #5b73e3;
     position: -webkit-sticky;
     position: sticky;
     top: -1px;
+}
+
+nav li{
+    text-align: center;
+    list-style-type: none;
+}
+
+nav li a{
+    background-color: #5b73e3;
+    text-decoration: none;
+}
+nav li a:link, nav li a:visited{
+    background-color: #5b73e3;
+    text-decoration: none;
+    color: #551a8b;
+}
+
+nav li a:hover{
+    background-color: #00587D;
+    text-decoration: none;
+    color: #551a8b;
+}
+
+nav li a:active{
+    background-color: #551a8b;;
+    color: #00587D;
 }
 
 body {
