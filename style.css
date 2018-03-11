@@ -8,6 +8,12 @@
     z-index:999;
 }
 
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+}
+
 body {
     background-color: #203AB0;
     color: #FFF;
