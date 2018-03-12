@@ -89,3 +89,7 @@ h1 {
     background-size: cover;
     height:100%
 }
+.specstable{
+    padding: 10px;
+    border: 5px solid #F2DC3A;
+}
