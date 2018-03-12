@@ -12,7 +12,7 @@ function slideShow(){
 
 window.onload = function(){
 
-    setInterval(slideShow, 10000);
+    setInterval(slideShow, 5000);
 
     $(".contact").hover(
         function(){

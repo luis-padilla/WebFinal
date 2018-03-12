@@ -27,6 +27,10 @@ nav li{
     text-align: center;
     list-style-type: none;
 }
+#slideShowImage{
+    display: block;
+    margin: auto;
+}
 
 nav li a{
     background-color: #5b73e3;
@@ -78,25 +82,21 @@ h1 {
     background-image: url(images/galaxy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:100%
 }
 .home{
     background-image: url(images/galaxy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:160%
 }
 .spec{
     background-image: url(images/galaxy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:250%
 }
 .contactUs{
     background-image: url(images/galaxy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:100%
 }
 .specstable{
     padding: 10px;
