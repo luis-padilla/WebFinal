@@ -65,3 +65,27 @@ h1 {
 .review p {
     font-style: italic;
 }
+.aboutUs{
+    background-image: url(images/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%
+}
+.home{
+    background-image: url(images/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:160%
+}
+.spec{
+    background-image: url(images/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%
+}
+.contactUs{
+    background-image: url(images/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%
+}
