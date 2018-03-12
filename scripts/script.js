@@ -14,15 +14,11 @@ window.onload = function(){
 
     setInterval(slideShow, 10000);
 
-    $("#intro").hover(
+    $(".contact").hover(
         function(){
-            $("#intro").css("font-size","24px");
-            console.log("over");
+            $(".contact").css("font-size","25px");
         },
         function(){
-            $("#intro").css("font-size","12px");
-            console.log("out");
+            $(".contact").css("font-size","16px");
         });
-
-    
 }

@@ -1,13 +1,21 @@
+.thumbnail{
+    height: auto;
+    width: 50%;
+}
+
 .thumbnail:hover {
-    position:relative;
     top:-25px;
     left:-35px;
-    width:500px;
+    width:360px;
     height:auto;
     display:block;
     z-index:999;
 }
-
+.contact{
+    font-size: 16px;
+    color: #F2DC3A;
+    text-decoration: underline;
+}
 nav{
     background-color: #5b73e3;
     position: -webkit-sticky;
