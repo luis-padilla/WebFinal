@@ -67,6 +67,7 @@ h1 {
     font-size: 2 em;
     font-style: bold;
 }
+
 .review {
     background-color: #3DB000;
     color: #00587D;
@@ -78,22 +79,7 @@ h1 {
 .review p {
     font-style: italic;
 }
-.aboutUs{
-    background-image: url(images/galaxy.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.home{
-    background-image: url(images/galaxy.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.spec{
-    background-image: url(images/galaxy.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.contactUs{
+.aboutUs, .contactUs, .spec, .home{
     background-image: url(images/galaxy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,4 +87,7 @@ h1 {
 .specstable{
     padding: 10px;
     border: 5px solid #F2DC3A;
+}
+#barGraph{
+    box-shadow:1px 1px #000000aa;
 }
