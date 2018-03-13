@@ -1,6 +1,6 @@
 .thumbnail{
     height: auto;
-    width: 50%;
+    width: 75%;
 }
 
 .thumbnail:hover {
@@ -16,6 +16,7 @@
     color: #F2DC3A;
     text-decoration: underline;
 }
+
 nav{
     background-color: #5b73e3;
     position: -webkit-sticky;
@@ -88,6 +89,17 @@ h1 {
     padding: 10px;
     border: 5px solid #F2DC3A;
 }
+
 #barGraph{
+    display: block;
+    margin: auto;
     box-shadow:1px 1px #000000aa;
+}
+
+h1,p,h2{
+    padding: 10px;
+}
+
+th{
+    margin: auto
 }
